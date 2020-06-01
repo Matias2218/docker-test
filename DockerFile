@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/spring-docker-advise.jar spring-docker-advise.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "spring-docker-advise.jar"]
