@@ -1,7 +1,6 @@
 package com.advise.docker.docker.models;
 
 
-
 import javax.persistence.*;
 
 @Entity
